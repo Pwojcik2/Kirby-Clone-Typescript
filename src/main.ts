@@ -28,6 +28,8 @@ async function gameSetup() {
         k.color(k.Color.fromHex("#f7d7db")),
         k.fixed(),
       ])
+
+      k.add(level1Layout)
     });
 
     k.go("level-1")
